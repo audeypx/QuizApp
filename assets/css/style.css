@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Manjari:100,400,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+body {
+    font-family: 'Manjari', sans-serif;
+    background: white;
+
+}
+
+
+.wrapper {
+    width: 60%;
+    /* height: 100vh; */
+    margin: 2% auto;
+    background-image: linear-gradient(to bottom right, #16c8f5, #1ac4f3, #8e6ad6);
+}
+
+.container {
+    padding: 2em 6em 0 2em;
+}
+
+.logo {
+    width: 50px;
+}
+
+.logo img {
+    max-width: 100%;
+}
+
+main .heading {
+    color: white;
+    padding-top: 2em;
+}
+
+
+main .heading h1,
+p {
+    margin: 0.4em 0;
+}
+
+main .heading h1 {
+    font-weight: lighter;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+main .heading p {
+    font-weight: 400;
+    font-size: 2em;
+    line-height: 0.9em;
+}
+
+#line_break {
+    border: 1px solid #f9f9f92f;
+    width: 100%;
+    margin: auto;
+}
+
+.answers {
+    margin: 2em 0;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+}
+
+.col {
+    width: 50%;
+}
+
+.btn button {
+    color: #31BFEA;
+    border: none;
+    text-align: center;
+    padding: 0.6em;
+    width: 90%;
+    border-radius: 0.7em;
+    margin: 0.5em 0;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+.correct{
+    background-color: #00cc00 !important;
+}
+
+.wrong{
+    background-color: red !important;
+}
+
+
+
+footer {
+    width: 100%;
+    /* margin-top: 9em; */
+    background-color: #8764CD;
+    height: 3.0rem;
+    color: #ffffff;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.result {
+    width: 60%;
+    margin: auto;
+    color: #fff;
+    font-family: Arial;
+    text-align: center;
+    line-height: 2em;
+}
+
+/* mobile query */
+@media (max-width: 768px) {
+    .wrapper {
+        width: 100%;
+        margin: 0;
+    }
+
+    .container {
+        padding: 2em 2em 0 2em;
+    }
+
+    .row {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .col {
+        width: 100%;
+    }
+}
