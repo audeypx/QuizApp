@@ -7,7 +7,7 @@
     /* border: 1px solid red; */
 }
 
-*:focus {outline:none}
+*:focus {outline:none !important}
 
 body {
     font-family: 'Manjari', sans-serif;
